@@ -13,7 +13,6 @@ body {
     background-color: rgb(43, 43, 43);
     grid-template-columns: 1fr 1fr;
     max-width: 1068px;
-    justify-items: stretch;
 }
 
 .logo img {
