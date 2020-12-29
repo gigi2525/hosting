@@ -34,6 +34,12 @@ body {
     padding: 1em;
     color: white;
     font-size: 1.5em;
+    top: 20px;
+    position: relative;
+}
+
+span {
+    color: rgb(204, 10, 10) ;
 }
 
 .nav-bar .n-bar a:hover {
@@ -44,16 +50,16 @@ body {
 }
 
 .fondo img {
-    width: 55em;
-    height: 30em;
+    width: 23.5em;
+    height: 15em;
 }
 
 .fondo button {
     position: relative;
     background: rgba(20, 20, 20, 0.795);
     border: 0;
-    bottom: 100px;
-    left: 100%;
+    bottom: 60px;
+    left: 40%;
     padding: 1em 2em;
     color: white;
     cursor: pointer;
@@ -65,11 +71,8 @@ body {
 
 .contenedor {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 20em;
-    grid-gap: 50px;
-    margin-left: 1em;
-    max-width: 1068px;
+    grid-template-columns: 1fr; 
+    grid-gap: 20px;
 }
 
 .contenedor .caja {
@@ -79,6 +82,7 @@ body {
 
 .contenedor .caja img {
     border-bottom: 2px solid rgb(204, 10, 10);
+    width: 23.5em;
 }
 
 .contenedor .caja p {
@@ -93,7 +97,7 @@ body {
     border: 0;
     position: relative;
     margin: 5px;
-    left: 40%;
+    left: 37%;
     color: #fff;
     cursor: pointer;
 }
